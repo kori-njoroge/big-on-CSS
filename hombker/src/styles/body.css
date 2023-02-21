@@ -1,0 +1,13 @@
+.appBody{
+    background-color: #F2F3F5;
+    padding: 2vh 0;
+}
+
+.table,.cards{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+.cards{
+    margin-top: 2vh;
+}
