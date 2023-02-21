@@ -1,7 +1,7 @@
 import React from 'react'
 import CardHead from './cardhead'
 
-export default function RightCard() {
+export default function MiddleCard() {
     return (
         <div>
             <CardHead />

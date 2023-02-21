@@ -3,11 +3,31 @@
     padding: 2vh 0;
 }
 
-.table,.cards{
+.table{
     background-color: white;
     width: 70%;
     margin: auto;
 }
 .cards{
+    width: 70%;
+    margin: auto;
     margin-top: 2vh;
+    display: flex;
+    gap: 2vw;
+}
+
+.cards *{
+    background-color: white;
+    border-radius:10px ;
+}
+
+.selectTime{
+    border: none;
+    background-color: #8f8a8a;
+    color: red;
+}
+
+select{
+    border: none;
+    background-color: transparent;
 }

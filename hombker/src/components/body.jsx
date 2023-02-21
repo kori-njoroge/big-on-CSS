@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import '../styles/body.css'
 import CardHead from './cardhead'
+import LetfCard from './letfcard'
+import MiddleCard from './middlecard'
+import RightCard from './rightcard'
 
 export default function Body() {
     const [tableValues, setValues] = useState([
@@ -97,7 +100,9 @@ export default function Body() {
                 </table>
             </div>
             <div className="cards">
-                <CardHead />
+                <LetfCard />
+                <MiddleCard />
+                <RightCard />
             </div>
         </div>
     )
