@@ -1,33 +1,178 @@
-.appBody{
+.appBody {
     background-color: #F2F3F5;
     padding: 2vh 0;
 }
 
-.table{
+.table {
     background-color: white;
-    width: 70%;
+    max-width: 70%;
     margin: auto;
+    padding: 3vh 3vw;
+    border-radius: 10px; 
+} 
+
+table {
+    width: 100%;
+    font-size: 13px;
+    font-family: sans-serif;
 }
-.cards{
-    width: 70%;
+
+/* table, */
+thead tr{
+    color: #8f8a8a;
+    font-weight: bold;
+}
+
+tr{
+    height: 50px;
+}
+tr:hover{
+    background-color:#faf9f9;
+}
+tbody{
+    font-size: 12px;
+    color: #8f8a8a;
+
+}
+tr .id{
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+    font-size: 11px;
+}
+
+table{
+    border: none;
+    border-collapse: collapse;
+}
+th{
+    height: 30px;
+    border-bottom: 1px solid;
+    border-left: 1px solid white;
+    text-align: left;
+    padding-left: 5px; 
+    background-color: rgb(176, 142, 209);
+    color: black;
+}
+td{
+    /* border: 1px solid;*/
+    padding-left: 5px; 
+    border-bottom: 1px solid #ebebeb;
+    word-wrap: break-word;
+    max-width: 80px;
+}
+/* tr:nth-child(even) {background-color: #f2f2f2;} */
+
+
+/* status styles */
+.new{
+    background-color: #ADE0F0;
+    color: #0c4353;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 5px 9px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.confirmed{
+    background-color: #A2EDCA;
+    color: #135336;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 5px 9px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+/* balance styles */
+.price{
+    color: rgb(204, 29, 29);
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.overpaid{
+    color: rgb(189, 167, 41);
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* view btn */
+.viewInfo{
+    background-color: #2F3C3F;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+    border-radius: 3px;
+    padding:1vh 1vw;    
+    text-transform: lowercase;
+}
+
+
+
+
+.cards {
+    width: 76%;
     margin: auto;
     margin-top: 2vh;
     display: flex;
     gap: 2vw;
+    padding: 2vh 0vw;
 }
 
-.cards *{
+.cards > * {
     background-color: white;
-    border-radius:10px ;
+    width: 100%;
+    border-radius: 10px;
+    font-family: sans-serif;
 }
 
-.selectTime{
-    border: none;
-    background-color: #8f8a8a;
-    color: red;
+/* Card head */
+.topic{
+    display: flex;
+    justify-content: space-between;
+}
+.topic p{
+    float: inline-start;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #2F3C3F;
+}
+.topic button{
+    height: 4.5vh;
+    color: #8f8a8a;
+    margin-top: auto;
+    border: 1px solid #c5c0c0;
+    border-radius: 3px;
+}
+.card{
+    padding: 1vh 1vw;
+}
+.card hr{
+    height: 0.001vh;
+    color: #ffffff;
+    font-size: 1px;
+    margin: 2vh 0vw;
 }
 
-select{
-    border: none;
-    background-color: transparent;
+/* first card */
+.totals{
+    padding: 0vh 2vw;
 }
+.totals > *{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.total{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.upcoming{
+    font-size: 13px;
+    color: #2F3C3F;
+}
+
+/* middle card */
