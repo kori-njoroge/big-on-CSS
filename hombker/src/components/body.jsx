@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/body.css'
 import CardHead from './cardhead'
+import DonutChart from './donut'
 import LineGraph from './linegraph'
 
 export default function Body() {
@@ -59,8 +60,8 @@ export default function Body() {
     ])
 
     const data = {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','October','November'],
-        values: [0, 7, 2, 0, 0, 0, 0,0,1,0,0],
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November'],
+        values: [0, 7, 2, 0, 0, 0, 0, 0, 1, 0, 0],
     };
 
 
@@ -123,17 +124,22 @@ export default function Body() {
                 <div className="card">
                     <CardHead title={`Finances`} />
                     <h3 className='cardHead'>Total Sales(29827)</h3>
-                    <div className="chart">
+                    {/* <div className="chart">
                         <div className="slice slice-1"> </div>
                         <div className="slice slice-2"> </div>
                         <div className="slice slice-3"> </div>
                         <div className="center"></div>
+                    </div> */}
+                    <div className="donut">
+                        <DonutChart />
+                        <p className='coloLabels'><span className="dot">G</span>Paid(5449)</p>
+                        <p className='coloLabels'><span className="doti">G</span>Overdue(19178)</p>
                     </div>
                 </div>
                 <div className="card">
                     <CardHead title={`Monthly Perfomance`} />
                     <h3 className='cardHead'>Orders 2023</h3>
-                    <LineGraph data={ data}/>
+                    <LineGraph data={data} />
                 </div>
             </div>
         </div>

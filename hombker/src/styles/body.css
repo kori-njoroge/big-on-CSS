@@ -200,7 +200,7 @@ td {
 .chart {
     position: relative;
     width: 100px;
-    height:100px;
+    height: 100px;
     border-radius: 50%;
     overflow: hidden;
     margin-left: 15px;
@@ -237,6 +237,43 @@ td {
     left: 25%;
     width: 50%;
     height: 50%;
-    background-color: white ;
+    background-color: white;
     border-radius: 50%;
+}
+
+/* 
+.donut{
+    border: 1px solid;
+    height: 10%;
+}
+
+.donuti{
+    border: 1px solid yellow;
+    height: 50%;
+} */
+
+.coloLabels {
+    font-size: 12px;
+}
+
+.dot {
+    height: 9px;
+    width: 10vw;
+    padding: 0vh .18vw;
+    background-color: #597BBA;
+    color: #597BBA;
+    border: 1px solid;
+    border-radius: 55%;
+    margin-right: .5vw;
+}
+
+.doti {
+    height: 9px;
+    width: 10vw;
+    padding: 0vh .18vw;
+    background-color:#BD2B1B;
+    color:#BD2B1B;
+    border: 1px solid;
+    border-radius: 55%;
+    margin-right: .5vw;
 }

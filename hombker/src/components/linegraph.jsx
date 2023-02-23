@@ -13,10 +13,12 @@ const LineChart = ({ data }) => {
                 labels: data.labels,
                 datasets: [
                     {
-                        label: 'Orders 2023',
+                        label: '',
                         data: data.values,
-                        borderColor: 'grey',
-                        tension: 0.1,
+                        borderColor: '#E5E7E7',
+                        borderWidth:'1',
+                        tension: 0.01,
+                        fill: true
                     },
                 ],
             },
@@ -36,14 +38,14 @@ const LineChart = ({ data }) => {
                 stacked: false,
                 plugins: {
                     title: {
-                        display: true,
-                        text: 'Line Chart with Shaded Area',
+                        display: true
+                        // text: 'Line Chart with Shaded Area',
                     }
                 },
             },
             });
     }, [data]);
-    return <canvas ref={canvasRef} />;
+    return <canvas ref={canvasRef} style={{ width: '300px', height: '300px' }} />;
 };
 
 export default LineChart;
