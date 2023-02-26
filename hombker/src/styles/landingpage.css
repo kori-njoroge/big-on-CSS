@@ -1,4 +1,4 @@
-.landnav{
+.landnav {
     display: flex;
     border: none;
     background-color: #363F4E;
@@ -7,31 +7,35 @@
     padding: 0px 10px;
     height: 7.5vh;
 }
-.link{
+
+.link {
     text-decoration: none;
     align-self: center;
 }
 
-.landnavRight{
+.landnavRight {
     display: flex;
 }
 
-.nav-right-item{
+.nav-right-item {
     margin: 0vh 2.5vw 0vh 0vw;
     color: rgb(235, 230, 230);
 }
-.landnavRight button{
+
+.landnavRight button {
     padding: 4px 8px;
     text-transform: capitalize;
     font-weight: 450;
     border-radius: 3px;
 }
-.loginbtn{
+
+.loginbtn {
     color: #363F4E;
     margin-right: .9vw;
     border: none;
 }
-.registerbtn{
+
+.registerbtn {
     border: none;
     color: white;
     background-color: #003D4C;
@@ -39,14 +43,15 @@
 }
 
 /* landing top styles */
-.landtopcontainer{
-    display:flex;
-    width:75%;
+.landtopcontainer {
+    display: flex;
+    width: 75%;
     margin: auto;
-    margin-top: 1.5vh;
+    margin-top: 2.5vh;
     margin-bottom: 10vh;
 }
-.top-item-left{
+
+.top-item-left {
     height: fit-content;
     margin: auto;
     background-color: #F4F4F4;
@@ -55,36 +60,88 @@
     z-index: 1;
     margin-right: -4vw;
 }
-.top-item-left h1{
+
+.top-item-left h1 {
     color: #0B3B49;
     font-weight: 600;
 }
-.top-item-left p{
+
+.top-item-left p {
     color: #315664;
 }
-.top-item-left button{
+
+.top-item-left button {
     color: white;
     background-color: #008A7D;
     border: none;
     margin-right: 0.7vw;
     font-weight: 450;
     padding: 7px 15px;
-    border-radius:3px ;
+    border-radius: 3px;
 }
-.top-item-left small{
+
+.top-item-left small {
     display: block;
     color: #315664;
     font-size: 11px;
     margin-top: 2vh;
 }
-.top-item-right{
+
+.top-item-right {
     width: 95%;
 }
-.top-item-right img{
+
+.top-item-right img {
     width: 100%;
 }
-.horizontal{
+
+.horizontal {
     width: 40%;
     height: 0.00002vh;
     color: #ffffff;
+    margin-bottom: 5vh;
+}
+
+/* baked styles */
+.baked {
+    display: flex;
+    margin-top: 2vh;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 15vh;
+}
+
+.baked-item-left {
+    min-width: 65%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #F4F4F4;
+}
+
+.baked-item-left img {
+    width: 95%;
+    height: 95%;
+    align-self: center;
+    justify-self: center;
+}
+
+.baked-item-right {
+    height: fit-content;
+    margin: auto;
+    padding: 3vh 2vw;
+    font-family: sans-serif;
+    /* width: 31%; */
+}
+
+.baked-item-right h2 {
+    color: #00365D;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.baked-item-right p {
+    color: #7b8392;
+    font-size: 15px;
+    line-height: 4vh;
 }
