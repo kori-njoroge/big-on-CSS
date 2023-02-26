@@ -5,7 +5,11 @@
     color: white;
     align-items: center;
     padding: 0px 10px;
-    height: 8vh;
+    height: 7.5vh;
+}
+.link{
+    text-decoration: none;
+    align-self: center;
 }
 
 .landnavRight{
@@ -14,7 +18,7 @@
 
 .nav-right-item{
     margin: 0vh 2.5vw 0vh 0vw;
-    align-self: center;
+    color: rgb(235, 230, 230);
 }
 .landnavRight button{
     padding: 4px 8px;
@@ -32,4 +36,55 @@
     color: white;
     background-color: #003D4C;
     border: 1px solid rgb(189, 187, 187);
+}
+
+/* landing top styles */
+.landtopcontainer{
+    display:flex;
+    width:75%;
+    margin: auto;
+    margin-top: 1.5vh;
+    margin-bottom: 10vh;
+}
+.top-item-left{
+    height: fit-content;
+    margin: auto;
+    background-color: #F4F4F4;
+    max-width: 25vw;
+    padding: 3vh;
+    z-index: 1;
+    margin-right: -4vw;
+}
+.top-item-left h1{
+    color: #0B3B49;
+    font-weight: 600;
+}
+.top-item-left p{
+    color: #315664;
+}
+.top-item-left button{
+    color: white;
+    background-color: #008A7D;
+    border: none;
+    margin-right: 0.7vw;
+    font-weight: 450;
+    padding: 7px 15px;
+    border-radius:3px ;
+}
+.top-item-left small{
+    display: block;
+    color: #315664;
+    font-size: 11px;
+    margin-top: 2vh;
+}
+.top-item-right{
+    width: 95%;
+}
+.top-item-right img{
+    width: 100%;
+}
+.horizontal{
+    width: 40%;
+    height: 0.00002vh;
+    color: #ffffff;
 }
