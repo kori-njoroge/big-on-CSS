@@ -9,12 +9,12 @@ export default function Navbar() {
                     <h4><span>H</span>ombekr</h4>
                 </div>
                 <div className="navRight">
-                    <p><i className="fa-solid fa-house"></i>Dashboard</p>
-                    <p><i className="fa-solid fa-bag-shopping"></i>orders</p>
-                    <p><i className="fa-solid fa-user"></i>customize</p>
-                    <p className='vertical'></p>
-                    <p>welcome Joanina's <i className="fa-solid fa-user"></i></p>
-                    <p><i className="fa-solid fa-caret-down"></i></p>
+                    <h6><i className="fa-solid fa-house"></i>Dashboard</h6>
+                    <h6><i className="fa-solid fa-bag-shopping"></i>orders</h6>
+                    <h6><i className="fa-solid fa-user"></i>customize</h6>
+                    <h6 className='vertical'>|</h6>
+                    <h6>welcome Joanina's <i className="fa-solid fa-user"></i></h6>
+                    <h6><i className="fa-solid fa-caret-down"></i></h6>
                 </div>
             </div>
             <div className="dashboard">

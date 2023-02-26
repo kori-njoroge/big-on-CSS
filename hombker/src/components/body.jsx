@@ -60,7 +60,7 @@ export default function Body() {
     ])
 
     const data = {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November'],
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov'],
         values: [0, 7, 2, 0, 0, 0, 0, 0, 1, 0, 0],
     };
 

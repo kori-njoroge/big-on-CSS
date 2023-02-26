@@ -1,16 +1,10 @@
 import './App.css';
-import Body from './components/body';
-import Navbar from './components/navbar';
+import Dashboard from './pages/dashboard';
 
 function App() {
   return (
     <div className="App">
-      <div className="appNav">
-        <Navbar />
-      </div>
-      <div className="applicationcontent">
-        <Body />
-      </div>
+      <Dashboard />
     </div>
   );
 }

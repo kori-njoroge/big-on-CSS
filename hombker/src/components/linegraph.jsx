@@ -29,6 +29,11 @@ const LineChart = ({ data }) => {
                             stepSize: 1, // set the vertical grid interval to 10
                         },
                     },
+                    x:{
+                        ticks:{
+                            stepSize:1
+                        }
+                    }
                 },
                 responsive: true,
                 interaction: {

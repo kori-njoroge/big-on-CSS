@@ -1,6 +1,8 @@
 .navbar{
     display: flex;
     flex-direction: column;
+    height: 10vh;
+    /* height: 100%; */
 }
 .navigation{
     display: flex;
@@ -9,11 +11,11 @@
     color: white;
     align-items: center;
     padding: 0px 10px;
+    height: 100%;
 }
 .navLeft{
     margin-right: auto;
     color: #2DD1AC;
-    height: 100%;
 }
 .navLeft span{
     color:#363F4E;
@@ -22,32 +24,34 @@
     border-radius: 2px;
 }
 .navRight{
-    /* margin: 0px 0px; */
     display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid white;  */
 }
-.navRight p{
-    margin-right: 15px ;
+
+.navRight h6{
+    display: flex;
+    flex-direction: row;
     font-size: 12px;
     text-transform: capitalize;
     height: 100%;
-    /* border: 1px solid white; */
+    margin-right: 15px ;
+    height: 9.7vh;
+    align-items: center;
+    border-radius: 5px;
+    padding:0px .5vw ;
+
 }
-.navRight p:hover{
+.navRight h6:hover{
     background-color: #4B5360;
 }
 
 .vertical{
-    /* border-left: 10px solid white;
-    height: 100px; */
-    border: 1px solid white;
-    min-height: 13px
+    min-height: 13px;
+    padding: 0;
+    margin-right:0 ;
+    margin-left:0 ;
 }
 
-.navRight p i{
+.navRight h6 i{
     font-size: 18px;
     margin-right: 7px;
     
