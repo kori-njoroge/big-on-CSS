@@ -21,7 +21,9 @@ export default function ContactUs() {
                     <label htmlFor="message"> Message *</label>
                     <textarea name="message"></textarea>
                 </div>
-                <button>Send Message</button>
+                <button onClick={(event)=>{
+                    event.preventDefault();
+                }}>Send Message</button>
             </form>
         </div>
     )
