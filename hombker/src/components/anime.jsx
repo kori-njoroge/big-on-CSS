@@ -1,41 +1,29 @@
-import React from 'react'
-import visualize from '../assets/visualize.jpeg'
-import myOrder from '../assets/myOrders.jpeg'
-import customers from '../assets/customers.jpeg'
-import notifications from '../assets/notifications.jpeg'
+import React, { useEffect, useState } from 'react'
 
 
+export default function Anime({ data, index, setIndex }) {
+    const indexNum = index
+    console.log("yooh", indexNum)
+    useEffect(() => {
+        // if (indexNum === 3) {
+        //     setIndex(0)
+        // } else if (indexNum === 0) {
+        //     // setIndex(3)
+        // }
+    }, [])
 
-
-export default function Anime() {
-    const data = [
-        {
-            img:visualize,
-            title:'Visualize data',
-            description:'Visualize your order and payment details with graphs and charts.'
-        },
-        {
-            img:myOrder,
-            title:'Manage Orders',
-            description:'Add, deliver and cancel orders, view order details and see your upcoming orders.'
-        },
-        {
-            img:customers,
-            title:'Manage customers',
-            description:'Add, suspend, and delete clients, search for a specific customer or order.'
-        },
-        {
-            img:notifications,
-            title:'Send notifications',
-            description:'Send notifications'
-        }
-    ]
 
     return (
-        <div className='anime mySlides fade'>
-            <img className='anime-img' src={visualize} alt="visualize" />
-            <h3>Visualize data</h3>
-            <p>Visualize your order and payment details with graphs and charts.</p>
-        </div>
+        <>
+            {data && data.map((item, index) => (
+                (index === indexNum ?
+                    <div className='anime mySlide fade' key={index}>
+                        <img className='anime-img' src={item.img} alt={item.title} />
+                        <h3>{item.title}</h3>
+                        <p>{item.description}</p>
+                    </div>
+                    : '')
+            ))}
+        </>
     )
 }
