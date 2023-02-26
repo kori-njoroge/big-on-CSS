@@ -52,13 +52,14 @@
 }
 
 .top-item-left {
-    height: fit-content;
     margin: auto;
     background-color: #F4F4F4;
-    max-width: 25vw;
+    max-width: 30vw;
     padding: 3vh;
     z-index: 1;
     margin-right: -4vw;
+    height: fit-content;
+    font-size: 1.2rem;
 }
 
 .top-item-left h1 {
@@ -99,16 +100,14 @@
     width: 40%;
     height: 0.00002vh;
     color: #ffffff;
-    margin-bottom: 5vh;
 }
 
 /* baked styles */
 .baked {
     display: flex;
-    margin-top: 2vh;
     width: 80%;
     margin: auto;
-    margin-bottom: 15vh;
+    margin: 10vh auto;
 }
 
 .baked-item-left {
@@ -147,98 +146,242 @@
 }
 
 /* Features styles */
-.features{
+.features {
     text-align: center;
     width: 60%;
     margin: auto;
     color: #09314e;
+
 }
-.features h2{
+
+.features h2 {
     font-size: 2.5rem;
     font-weight: 300;
 }
-.features p{
+
+.features p {
     width: 60%;
     margin: auto;
 }
+
 /* anime stles */
-.anime{
+.anime {
     width: 100%;
-    margin:4vh 0vw;
+    margin: 4vh 0vw;
 }
-.anime img{
+
+.anime img {
     width: 100%;
 }
-.anime h3{
+
+.anime h3 {
     margin-top: 0;
 }
+
+
+
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* end of anime */
 
-.chevrons{
+.chevrons {
     display: flex;
     justify-content: center;
     margin-bottom: 4vh;
 }
-.fa-circle-chevron-right, .fa-circle-chevron-left{
+
+.fa-circle-chevron-right,
+.fa-circle-chevron-left {
     font-size: 2.5rem;
 }
-.fa-circle-chevron-left{
+
+.fa-circle-chevron-left {
     margin-right: 2vw;
 }
 
 
 /* Contact us section styles */
-.contactUs{
+.contactUs {
     text-align: center;
     color: #09314e;
     margin: 3vh 0vw;
     width: 85%;
     margin: auto;
 }
-.contactUs h2{
+
+.contactUs h2 {
     font-size: 2.5rem;
     font-weight: 300;
 }
 
-.contactForm{
+.contactForm {
     margin: 10vh 8vw;
     font-family: sans-serif;
 }
 
-.inputs{
+.inputs {
     display: flex;
-    
+
 }
 
-.inputs div{
+.inputs div {
     width: 50%;
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-.inputs .name{
-    margin-right: 2vw ;
+
+.inputs .name {
+    margin-right: 2vw;
 }
 
-.inputs div label{
+.inputs div label {
     margin-bottom: 2vh;
 }
 
-.inputs div input{
+.inputs div input {
     height: 4vh;
     border: none;
     border-bottom: 1px solid;
     font-size: 15px;
     color: #294e69;
 }
-.textarea{
+
+.textarea {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-top: 8vh;
 }
 
-.textarea textarea{
+.textarea textarea {
     height: 7vh;
     border: none;
     border-bottom: 1px solid;
@@ -246,22 +389,25 @@
     color: #294e69;
 }
 
-.contactForm button{
-    color: white ;
+.contactForm button {
+    color: white;
     background-color: #003D4C;
     padding: 1.5vh 2vw;
     margin-top: 3vh;
-    border:  none;
+    border: none;
     border-radius: 3px;
     font-size: 14px;
     text-transform: capitalize;
 }
 
 /* pseudo */
-.inputs div input:hover, .textarea textarea:hover{
+.inputs div input:hover,
+.textarea textarea:hover {
     border-bottom: 3px solid;
 }
-.inputs div input:focus, .textarea textarea:focus{
+
+.inputs div input:focus,
+.textarea textarea:focus {
     border-bottom: 3px solid;
     outline: none;
 }

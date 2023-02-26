@@ -3,7 +3,7 @@ import Anime from './anime'
 
 export default function Features() {
     return (
-        <div className='features'>
+        <div className='features' id='features'>
             <i class="fa-solid fa-list-check fa-3x"></i>
             <h2>Key Features</h2>
             <p>Baked is a web platform, so its accessible from any device anywhere in the world. All you need is an interniet connection</p>

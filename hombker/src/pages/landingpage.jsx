@@ -11,6 +11,7 @@ export default function Landingpage() {
             <Landingnav />
             <LandTop />
             <Baked />
+            <hr className='horizontal' />
             <Features />
             <hr className='horizontal' />
             <ContactUs />

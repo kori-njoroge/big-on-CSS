@@ -11,9 +11,9 @@ export default function Navbar() {
                 <div className="navRight">
                     <h6><i className="fa-solid fa-house"></i>Dashboard</h6>
                     <h6><i className="fa-solid fa-bag-shopping"></i>orders</h6>
-                    <h6><i className="fa-solid fa-user"></i>customize</h6>
+                    <h6><i className="fa-solid fa-user"></i>customers</h6>
                     <h6 className='vertical'>|</h6>
-                    <h6>welcome Joanina's <i className="fa-solid fa-user"></i></h6>
+                    <h6>welcome Joanina's &nbsp; <i className="fa-solid fa-user"></i></h6>
                     <h6><i className="fa-solid fa-caret-down"></i></h6>
                 </div>
             </div>

@@ -7,7 +7,7 @@ export default function Baked() {
     const importance = "Baked helps you keep track of all your orders and clients, send SMS notifications, view order dates, payments details and sales data."
     return (
         <>
-            <div className='baked'>
+            <div className='baked' id='about'>
                 <div className="baked-item-left">
                     <img src={baked} alt="cake dough" />
                 </div>
@@ -17,7 +17,6 @@ export default function Baked() {
                     <p>{importance}</p>
                 </div>
             </div>
-            <hr className='horizontal' />
         </>
     )
 }

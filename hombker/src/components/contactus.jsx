@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactUs() {
     return (
-        <div className='contactUs'>
+        <div className='contactUs' id='contactus'>
             <i className="fa-solid fa-envelope fa-3x"></i>
             <h2>Contact Us</h2>
             <p>Do you have any quetions? Please do not hesitate to contact us directly. Our team will come back to help you.</p>
