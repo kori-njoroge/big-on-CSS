@@ -5,11 +5,7 @@ export default function Anime({ data, index, setIndex }) {
     const indexNum = index
     console.log("yooh", indexNum)
     useEffect(() => {
-        // if (indexNum === 3) {
-        //     setIndex(0)
-        // } else if (indexNum === 0) {
-        //     // setIndex(3)
-        // }
+        
     }, [])
 
 

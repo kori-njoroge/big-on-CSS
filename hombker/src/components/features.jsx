@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Anime from './anime'
 import visualize from '../assets/visualize.jpeg'
 import myOrder from '../assets/myOrders.jpeg'
@@ -32,6 +32,18 @@ export default function Features() {
     const dataLength = data.length;
     const[ index, setIndex] = useState(0);
 
+    useEffect(() =>{
+        setTimeout(() => {
+            if(index >= 0 && index < dataLength-1){
+                setIndex( PrevState => PrevState +1)
+            }
+            else if( index === dataLength-1 || index >= dataLength ){
+                setIndex(0)
+            }
+        }, 15000);
+
+    },[index])
+
     console.log(index)
     return (
         <div className='features' id='features'>
@@ -47,7 +59,7 @@ export default function Features() {
                     <i
                         class="fa-solid fa-circle-chevron-left  fa-2x"
                         onClick={() => {
-                            {index === 0 && setIndex(3)}
+                            {index === 0 && setIndex(4)}
                             setIndex( PrevState => PrevState -1)
                             console.log(index)
                         }}
@@ -55,12 +67,11 @@ export default function Features() {
                     <i
                         class="fa-solid fa-circle-chevron-right fa-2x"
                         onClick={() => {
+                            {(index === dataLength-1 || index >= dataLength) && setIndex(-1)}
                             setIndex( prevState =>prevState + 1)
-                            {index === dataLength-1 && setIndex(0)}
                             console.log(index)
                         }}
                     ></i>
-                            {index === 0 && setIndex(3)}
                 </div>
             </div>
         </div>
