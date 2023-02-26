@@ -40,9 +40,10 @@ tbody {
 }
 
 tr .id {
-    color: rgb(0, 0, 255);
+    color: #58ABF8;
     font-weight: bold;
     font-size: 11px;
+    text-transform: capitalize;
 }
 
 table {
