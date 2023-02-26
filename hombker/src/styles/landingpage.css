@@ -177,10 +177,91 @@
 .chevrons{
     display: flex;
     justify-content: center;
+    margin-bottom: 4vh;
 }
 .fa-circle-chevron-right, .fa-circle-chevron-left{
     font-size: 2.5rem;
 }
 .fa-circle-chevron-left{
     margin-right: 2vw;
+}
+
+
+/* Contact us section styles */
+.contactUs{
+    text-align: center;
+    color: #09314e;
+    margin: 3vh 0vw;
+    width: 85%;
+    margin: auto;
+}
+.contactUs h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 10vh 8vw;
+    font-family: sans-serif;
+}
+
+.inputs{
+    display: flex;
+    
+}
+
+.inputs div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.inputs .name{
+    margin-right: 2vw ;
+}
+
+.inputs div label{
+    margin-bottom: 2vh;
+}
+
+.inputs div input{
+    height: 4vh;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 15px;
+    color: #294e69;
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 8vh;
+}
+
+.textarea textarea{
+    height: 7vh;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 15px;
+    color: #294e69;
+}
+
+.contactForm button{
+    color: white ;
+    background-color: #003D4C;
+    padding: 1.5vh 2vw;
+    margin-top: 3vh;
+    border:  none;
+    border-radius: 3px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+/* pseudo */
+.inputs div input:hover, .textarea textarea:hover{
+    border-bottom: 3px solid;
+}
+.inputs div input:focus, .textarea textarea:focus{
+    border-bottom: 3px solid;
+    outline: none;
 }
