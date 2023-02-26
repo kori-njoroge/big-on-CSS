@@ -106,13 +106,13 @@
 .baked {
     display: flex;
     margin-top: 2vh;
-    width: 75%;
+    width: 80%;
     margin: auto;
     margin-bottom: 15vh;
 }
 
 .baked-item-left {
-    min-width: 65%;
+    min-width: 70%;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -131,17 +131,56 @@
     margin: auto;
     padding: 3vh 2vw;
     font-family: sans-serif;
-    /* width: 31%; */
+    min-width: 31%;
 }
 
 .baked-item-right h2 {
     color: #00365D;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 200;
 }
 
 .baked-item-right p {
     color: #7b8392;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 4vh;
+}
+
+/* Features styles */
+.features{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: #09314e;
+}
+.features h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.features p{
+    width: 60%;
+    margin: auto;
+}
+/* anime stles */
+.anime{
+    width: 100%;
+    margin:4vh 0vw;
+}
+.anime img{
+    width: 100%;
+}
+.anime h3{
+    margin-top: 0;
+}
+/* end of anime */
+
+.chevrons{
+    display: flex;
+    justify-content: center;
+}
+.fa-circle-chevron-right, .fa-circle-chevron-left{
+    font-size: 2.5rem;
+}
+.fa-circle-chevron-left{
+    margin-right: 2vw;
 }
