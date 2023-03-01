@@ -30,14 +30,12 @@
 
 .navRight {
     display: flex;
-    border: 1px solid olive;
     height: 100%;
 }
 
 .navbar-icons {
     display: flex;
     color: white;
-    border: 1px solid purple;
     height: 100%;
     align-items: center;
 }
@@ -47,10 +45,10 @@
     text-transform: capitalize;
     display: flex;
     padding: 0vh .5vw;
-    align-self: center;
-    justify-self: center;
+    align-items: center;
     font-size: 12px;
     margin-right: 10px;
+    height: 100%;
 }
 
 .navbar-icons h6 i {
@@ -93,7 +91,6 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     color: black;
-    padding: 0vh 1.5vw;
     border-radius: 3px;
     margin-top: 2px;
     margin-left: 1vw;
@@ -101,6 +98,7 @@
 }
 .dropdown-content p{
     margin: 1.5vh 0vw;
+    padding: 0vh 1.5vw;
 
 }
 
