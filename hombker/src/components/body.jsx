@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/body.css'
+import Barner from './barner'
 import CardHead from './cardhead'
 import DonutChart from './donut'
 import LineGraph from './linegraph'
@@ -69,6 +70,7 @@ export default function Body() {
 
     return (
         <div className='appBody'>
+            <Barner />
             <div className='table'>
                 <table>
                     <thead>

@@ -1,8 +1,41 @@
 .appBody {
     background-color: #F2F3F5;
     padding: 2vh 0;
+    margin-top: 5vh;
 }
 
+/* barner styles */
+.barner {
+    width: 70%;
+    background-color: #c94d3f;
+    margin:1vh auto 3vh auto;
+    height: 15vh;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1vh 1vw;
+    justify-content: space-between;
+}
+.text{
+    font-size: 20px;
+}
+
+.text span{
+    font-weight: 300;
+}
+.image{
+    height: 100%;
+    background-color: transparent;
+}
+
+.image img{
+    height: 100%;
+    background-color: transparent;
+}
+
+
+/* table styles */
 .table {
     background-color: white;
     max-width: 70%;
@@ -274,8 +307,8 @@ td {
     height: 9px;
     width: 10vw;
     padding: 0vh .18vw;
-    background-color:#BD2B1B;
-    color:#BD2B1B;
+    background-color: #BD2B1B;
+    color: #BD2B1B;
     border: 1px solid;
     border-radius: 55%;
     margin-right: .5vw;

@@ -19,9 +19,11 @@
     margin-right: auto;
     color: #2DD1AC;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 
-.navLeft span {
+.navLeft h4 span {
     color: #363F4E;
     background-color: #2DD1AC;
     padding: 0px 3px;
