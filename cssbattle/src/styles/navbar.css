@@ -37,10 +37,15 @@
     background-color:rgb(50,63,74) ;
     color: white;
     border: none;
-    padding: 1.5vh 2vw;
+    padding: 1.5vh 1.5vw;
     font-size: 18px;
     border-radius: 5px;
     transition: 1s ease;
+    font-family: IBM Plex Mono,
+        Menlo,
+        DejaVu Sans Mono,
+        Lucida, Console,
+        monospace;
 }
 .navRight button:hover{
     /* position: absolute; */

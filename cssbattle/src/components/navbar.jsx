@@ -10,7 +10,7 @@ export default function Navbar() {
                 <h5 id='learn'>Learn</h5>
             </div>
             <div className="navRight">
-                <button>Sign In &nbsp; / &nbsp;Sign Up</button>
+                <button>Sign In&nbsp;/&nbsp;Sign Up</button>
             </div>
         </div>
     )
