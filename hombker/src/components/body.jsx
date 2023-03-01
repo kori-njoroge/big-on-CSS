@@ -124,12 +124,6 @@ export default function Body() {
                 <div className="card">
                     <CardHead title={`Finances`} />
                     <h3 className='cardHead'>Total Sales(29827)</h3>
-                    {/* <div className="chart">
-                        <div className="slice slice-1"> </div>
-                        <div className="slice slice-2"> </div>
-                        <div className="slice slice-3"> </div>
-                        <div className="center"></div>
-                    </div> */}
                     <div className="donut">
                         <DonutChart />
                         <p className='coloLabels'><span className="dot">G</span>Paid(5449)</p>
