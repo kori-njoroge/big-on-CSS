@@ -17,7 +17,7 @@ export default function Body() {
                 <p>CSSBattle's "LEARN" is the first-ever gamified CSS course targeted towards beginners, intermediates, and even experts. Each course consists of multiple levels which you play and learn - just like a game!</p>
             </div>
             <div className="barnerContainer">
-                <div className="barner">
+                <div className="barner bounce-shadow">
                     <img src={logo} alt="member" />
                     <div className="memberinfo">
                         <p> “This is a lot of fun. Nice interactive way to start learning!”</p>
@@ -64,7 +64,7 @@ export default function Body() {
 
             </div>
             <div className="barnerContainer">
-                <div className="barner">
+                <div className="barner bounce-shadow">
                     <img src={kirupa} alt="member" />
                     <div className="memberinfo">
                         <p> “This is a great way for beginners to learn CSS! Anything that adds gamification and entices people to go deeper without feeling like a "chore" is a great thing!”</p>
@@ -79,7 +79,7 @@ export default function Body() {
                 <p>The cost is just for that new & different experience to learn CSS!</p>
             </div>
             <div className="barnerContainer">
-                <div className="barner">
+                <div className="barner bounce-shadow">
                     <img src={denasi} alt="member" />
                     <div className="memberinfo">
                         <p>“A very interactive course compared to those available from other providers, which feel more like lectures. With an interactive and in-browser embedded coding environment, what more could you ask for? I highly recommend this course to beginners or even coders with some experience who are trying to get back into CSS!”   </p>
