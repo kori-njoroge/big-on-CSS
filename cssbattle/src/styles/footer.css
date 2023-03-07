@@ -1,0 +1,31 @@
+.footer{
+    background-color: #0F1117;
+    padding:1vh 1vw;
+    color: RGB(203, 209, 225);
+}
+.links{
+    display: flex;
+    color: rgb(236, 232, 232);
+    font-family: IBM Plex Mono,
+        Menlo,
+        DejaVu Sans Mono,
+        Lucida, Console,
+        monospace;
+}
+.links *{
+    margin: 0vh 1vw;
+}
+
+.links p{
+    /* margin: 0; */
+    text-decoration: underline;
+}
+
+span{
+    background-color: yellow;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0vh;
+    border-radius: 3px;
+}
