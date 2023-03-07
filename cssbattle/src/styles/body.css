@@ -41,7 +41,7 @@
 
 .barnerContainer {
     margin-top: 10vh;
-    height: 15vh;
+    /* height: 15vh; */
     padding-bottom: 15vh;
 }
 
@@ -50,6 +50,7 @@
     height: 100%;
     width: 85%;
     background-color: rgb(8, 8, 8);
+    color: RGB(203, 209, 225);
     font-family: IBM Plex Mono,
         Menlo,
         DejaVu Sans Mono,
@@ -62,7 +63,7 @@
 .barner img {
     border-radius: 50%;
     margin-right: 2vw;
-    height: 90%;
+    height: 13vh;
 }
 
 .ourCourses {
@@ -148,4 +149,23 @@
     font-weight: 600;
     border-radius: 5px;
     text-transform: capitalize;
+}
+
+.notReplace{
+    color: RGB(203, 209, 225);
+    font-family: IBM Plex Mono,
+        Menlo,
+        DejaVu Sans Mono,
+        Lucida, Console,
+        monospace;
+}
+
+.extras{
+    color: #FFDF00;
+    font-size: 25px;
+    font-family: IBM Plex Mono,
+        Menlo,
+        DejaVu Sans Mono,
+        Lucida, Console,
+        monospace;
 }

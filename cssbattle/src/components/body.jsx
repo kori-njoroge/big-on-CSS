@@ -1,9 +1,13 @@
 import React from 'react'
 import '../styles/body.css'
 import logo from '../images/kevin-powell.jpeg'
+import kirupa from '../images/kirupa.jpeg'
+import denasi from '../images/denasi.jpeg'
+import Footer from './footer'
 
 export default function Body() {
     return (
+        <>
         <div className='body'>
             <div className="battleLearn text">
                 <p id='battles'>CSSBattle's</p>
@@ -21,7 +25,7 @@ export default function Body() {
                     </div>
                 </div>
             </div>
-            <h4>Our Courses</h4>
+            <h4 className='extras'>Our Courses</h4>
             <div className="ourCourses">
                 <div className="card">
                     <div className="cardtop ">
@@ -57,7 +61,34 @@ export default function Body() {
                         <button className='notifyme'>notify me</button>
                     </div>
                 </div>
+
+            </div>
+            <div className="barnerContainer">
+                <div className="barner">
+                    <img src={kirupa} alt="member" />
+                    <div className="memberinfo">
+                        <p> “This is a great way for beginners to learn CSS! Anything that adds gamification and entices people to go deeper without feeling like a "chore" is a great thing!”</p>
+                        <p>Kirupa, Founder of kirupa.com</p>
+                    </div>
+                </div>
+            </div>
+            <h4 className='extras'>Why buy this course when you can learn CSS for free?</h4>
+            <div className="notReplace">
+                <p>This course is not there to replace other learning methods. Yes, you can learn CSS for free. But our course is altogether a different experience where you don't have to watch multiple videos or read long articles/documentation to learn. You just sit back, play and learn by doing along the way - hopefully at a much better speed and with more knowledge retention compared to other methods. 🙂</p>
+
+                <p>The cost is just for that new & different experience to learn CSS!</p>
+            </div>
+            <div className="barnerContainer">
+                <div className="barner">
+                    <img src={denasi} alt="member" />
+                    <div className="memberinfo">
+                        <p>“A very interactive course compared to those available from other providers, which feel more like lectures. With an interactive and in-browser embedded coding environment, what more could you ask for? I highly recommend this course to beginners or even coders with some experience who are trying to get back into CSS!”   </p>
+                        <p>Dhhyey Desai, Online Instructor (500K+ Students)</p>
+                    </div>
+                </div>
             </div>
         </div>
+            <Footer />
+        </>
     )
 }
